@@ -46,6 +46,18 @@ End-to-end ML pipeline on 45K+ banking records — **89% accuracy, 0.93 ROC-AUC*
 
 - Power BI dashboards delivering actionable insights for business stakeholders
 
+### 📰 [Media Bias Detection in News Headlines](https://github.com/palaadarsh31/media-bias-detection) | NLP / Transformer
+
+Fine-tuned **RoBERTa** to classify news headlines as left-leaning, right-leaning, or neutral — **~87% accuracy, macro F1 0.85**
+
+- SBERT (`all-MiniLM-L6-v2`) embeddings with t-SNE visualisation and cosine similarity analysis
+
+- EDA on word associations, bigrams, and WordCloud per bias class
+
+- Optuna hyperparameter search via HuggingFace Trainer (10 trials)
+
+
+
 
 
 ### 🔍 RAG-Based Intelligent Search | NLP & Information Retrieval
